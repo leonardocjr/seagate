@@ -25,16 +25,16 @@ nav li{
 }
 
 nav li a{
-    background-color: #3388f5;
+    /* background-color: #3388f5; */
     /* box-shadow: #3f4954 1px 1px; */
     border-radius: 5px;
     text-decoration: none;
-    color: white;
+    color: #3388f5;
     padding: 10px
 }
 
 nav li a:hover{
-    background-color: #e34444;
+    color: #e34444;
 }
 
 header{
