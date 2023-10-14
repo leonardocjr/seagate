@@ -191,7 +191,7 @@ footer p{
 }
 
 #forms{
-    background-image: url(/imagem/info.jpg);
+    background-image: url(imagem/info.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -207,8 +207,29 @@ footer p{
     background-color: white;
     padding: 20px;
     border-radius: 15px;
-    opacity: 0.8;
   }
   .elemento {
     margin-bottom: 10px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+
+  button{
+    padding: 10px 20px;
+    background-color:#3388f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input, textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
   }
