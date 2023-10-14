@@ -5,10 +5,9 @@ body{
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     font-family: 'K2D', sans-serif;
-    padding-top: 30px;
 }
 
 h2 {
@@ -117,32 +116,51 @@ footer p{
     color: #fff;
 }
 
-#information_container p, #warning_container p{
-    padding-left:200px;
-    padding-right: 200px;
+#information_container, #warning_container{
     padding-bottom: 50px;
+}
+
+#information_container p, #warning_container p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#information_container h1, #warning_container h1{
+    padding-top: 30px;
+}
+
+#warning_container h1{
+    color:#fff !important;
 }
 
 #gallery {
     align-content: center;
     background-color: #fff;
-    color:#3388f5;
 }
 
 #species{
     display: inline-block;
     vertical-align: top;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
+#species p{
+    color: #000;
+}
+
+#species h2, #gallery h1{
+    color: #3388f5;
+}
+
+#species h3{
+    font-style:italic;
+}
 
 #whale_container {
     align-items: center;
     width: 100%;
-}
-
-#whale_container p{
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 #species img {
@@ -169,5 +187,5 @@ footer p{
 #warning_container{
     background-color: #e34444;
     color:#fff;
-    padding-bottom: 40px;
+    margin-bottom: 30px;
 }
