@@ -8,7 +8,7 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     font-family: 'K2D', sans-serif;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 h2 {
@@ -24,14 +24,14 @@ h3 {
     font-size: 30px;
     font-weight: 100;
     font-family: 'K2D', sans-serif;
-    padding-top: -10px;
+    color: #e34444;
 }
 
 p{
     text-align: justify;
     font-size: 22px;
     font-weight: 400;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 nav {
@@ -45,7 +45,7 @@ nav {
 
 nav img{
     margin-left: 20px;
-    width: 200PX;
+    width: 200px;
 }
 
 nav ul{
@@ -98,29 +98,26 @@ footer{
     position: fixed;
 }
 
-footer p {
+footer p{
     text-align: center;
     font-size: 16px;
 }
 
-#us_img {
+#us_img{
     width: 100%;
-    height: auto;
+    height: 800px;
+    object-fit: cover;
+    margin-top: -22px;
 }
 
-#us_container {
-    width: 100%;
-    height: auto;
-}
-
-#information_container {
+#information_container{
     width: 100%;
     height: auto;
     background-color: #3388f5;
     color: #fff;
 }
 
-#information_container p{
+#information_container p, #warning_container p{
     padding-left:200px;
     padding-right: 200px;
     padding-bottom: 50px;
@@ -144,8 +141,8 @@ footer p {
 }
 
 #whale_container p{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #species img {
@@ -159,14 +156,18 @@ footer p {
     width: 50%;
     padding: 10px;
     float: left;
+    margin-right: 20px;
 }
 
 #whale_img_right{
     width: 50%;
     padding: 10px;
     float: right;
+    margin-left: 20px;
 }
 
-#space{
-    height: 100px;
+#warning_container{
+    background-color: #e34444;
+    color:#fff;
+    padding-bottom: 40px;
 }
