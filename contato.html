@@ -1,49 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Sea Gate - O portão dos mares</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="icon" type="image/x-icon" href="imagem/favicon.ico" />
-        <!-- BRAND COLORS
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sea Gate - O portão dos mares</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="imagem/favicon.ico" />
+    <!-- BRAND COLORS
             BACKGROUND: #ffffff
             PRINCIPAL 1: #3388f5
             INTERMEDIARIA 1: #6d71ba
             INTERMEDIARIA 2: #a85a7f
             PRINCIPAL 2: #e34444
         -->
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,900;1,400&display=swap');
-        </style>
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&display=swap');
-        </style>
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&family=Tilt+Neon&display=swap');
-        </style>
-      </head>
-      <body>
-        <header>
-          <nav>
-            <img src="imagem/logo.png" draggable="false" />
-            <ul>
-              <li><a href="index.html">Início</a></li>
-              <li><a href="index.html#gallery">Galeria</a></li>
-              <li><a href="contato.html">Sobre nós</a></li>
-              <li><a href="contato.html#contact">Contato</a></li>
-            </ul>
-          </nav>
-        </header>
-        <div>
-          <div id="information_container">
-            <h1>Quem somos?</h1>
-              <p>&emsp;&emsp;A Sea Gate é uma organização comprometida com a proteção das baleias em extinção, é um farol de esperança em meio às ameaças que pairam sobre essas majestosas criaturas marinhas. Nossa missão transcende fronteiras, unindo paixão, ciência e advocacia em prol da sobrevivência das baleias e da saúde dos oceanos. Atuamos na conscientização global, educando as pessoas sobre os perigos que enfrentam as baleias, como a caça ilegal, a poluição e as mudanças climáticas. Realizamos pesquisas pioneiras para entender as complexas dinâmicas das populações de baleias e implementamos medidas para mitigar essas ameaças.</p>
-              <p>&emsp;&emsp;Nós empoderamos as comunidades locais, promovendo práticas sustentáveis e conscientes. Acreditamos que a conservação marinha deve ser um esforço conjunto, envolvendo todas as partes interessadas. Unidos em nossa causa, a ONG Sea Gate está determinada a ser a voz que ecoa pelos mares, protegendo as baleias, guardiãs dos oceanos, e assegurando um legado de respeito e harmonia entre a humanidade e a vida marinha. Com o apoio de todos, podemos abrir as portas para um futuro mais brilhante, onde as baleias em extinção possam recuperar e continuar a desempenhar seu papel vital na saúde do nosso planeta.</p>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,900;1,400&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&family=Tilt+Neon&display=swap');
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><img src="imagem/logo.png" draggable="false" /></a>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#gallery">Galeria</a></li>
+          <li><a href="contato.html">Sobre nós</a></li>
+          <li><a href="contato.html#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="information_container">
+      <h1>Quem somos?</h1>
+      <p>
+        &emsp;&emsp;A Sea Gate é uma organização comprometida com a proteção das
+        baleias em extinção, é um farol de esperança em meio às ameaças que
+        pairam sobre essas majestosas criaturas marinhas. Nossa missão
+        transcende fronteiras, unindo paixão, ciência e advocacia em prol da
+        sobrevivência das baleias e da saúde dos oceanos. Atuamos na
+        conscientização global, educando as pessoas sobre os perigos que
+        enfrentam as baleias, como a caça ilegal, a poluição e as mudanças
+        climáticas. Realizamos pesquisas pioneiras para entender as complexas
+        dinâmicas das populações de baleias e implementamos medidas para mitigar
+        essas ameaças.
+      </p>
+      <p>
+        &emsp;&emsp;Nós empoderamos as comunidades locais, promovendo práticas
+        sustentáveis e conscientes. Acreditamos que a conservação marinha deve
+        ser um esforço conjunto, envolvendo todas as partes interessadas. Unidos
+        em nossa causa, a ONG Sea Gate está determinada a ser a voz que ecoa
+        pelos mares, protegendo as baleias, guardiãs dos oceanos, e assegurando
+        um legado de respeito e harmonia entre a humanidade e a vida marinha.
+        Com o apoio de todos, podemos abrir as portas para um futuro mais
+        brilhante, onde as baleias em extinção possam recuperar e continuar a
+        desempenhar seu papel vital na saúde do nosso planeta.
+      </p>
+    </div>
+    <div id="forms" class="forms_container">
+      <div class="fundo_forms">
+        <h1>Contato</h1>
+        <form action="#" method="post">
+          <div class="elemento">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" />
           </div>
-          <img id="us_img" src="./imagem/info.jpg" alt="Jubarte com filhote" draggable="false" />
-        </div>
-        <footer>
-          <p>© Direitos reservados a Sea Gate 2023.</p>
-        </footer>
-      </body>
+          <div class="elemento">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="elemento">
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" />
+          </div>
+          <div class="elemento">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" />
+          </div>
+          <div class="elemento">
+            <label for="conteudo">Conte mais:</label><br />
+            <textarea
+              id="conteudo"
+              name="conteudo"
+              rows="4"
+              style="width: 390px; height: 131px"
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>© Direitos reservados a Sea Gate 2023.</p>
+    </footer>
+  </body>
 </html>
