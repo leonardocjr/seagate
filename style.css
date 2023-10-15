@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;400;700&family=Tilt+Neon&display=swap');
+
+/* 
+    BRAND COLORS:
+        BACKGROUND: #ffffff
+        PRINCIPAL 1: #3388f5
+        INTERMEDIARIA 1: #6d71ba
+        INTERMEDIARIA 2: #a85a7f
+        PRINCIPAL 2: #e34444
+*/
+
 body{
     background-color: #fff;
     margin: 0;
@@ -59,8 +72,6 @@ nav li{
 }
 
 nav li a{
-    /* background-color: #3388f5; */
-    /* box-shadow: #3f4954 1px 1px; */
     border-radius: 5px;
     text-decoration: none;
     color: #3388f5;
@@ -102,34 +113,27 @@ footer p{
     font-size: 16px;
 }
 
-#us_img{
-    width: 100%;
-    height: 800px;
-    object-fit: cover;
-    margin-top: -22px;
-}
-
-#information_container{
+.information_container{
     width: 100%;
     height: auto;
     background-color: #3388f5;
     color: #fff;
 }
 
-#information_container, #warning_container{
+.information_container, .warning_container{
     padding-bottom: 50px;
 }
 
-#information_container p, #warning_container p{
+.information_container p, .warning_container p{
     margin-left: 200px;
     margin-right: 200px;
 }
 
-#information_container h1, #warning_container h1{
+.information_container h1, .warning_container h1{
     padding-top: 30px;
 }
 
-#warning_container h1{
+.warning_container h1{
     color:#fff !important;
 }
 
@@ -138,7 +142,7 @@ footer p{
     background-color: #fff;
 }
 
-#species{
+.species{
     display: inline-block;
     vertical-align: top;
     margin-left: 100px;
@@ -146,45 +150,45 @@ footer p{
     margin-top: 30px;
 }
 
-#species p{
+.species p{
     color: #000;
 }
 
-#species h2, #gallery h1{
+.species h2, #gallery h1{
     color: #3388f5;
 }
 
-#species h3{
+.species h3{
     font-style:italic;
 }
 
-#whale_container {
+.whale_container {
     align-items: center;
     width: 100%;
 }
 
-#species img {
+.species img {
     object-fit: cover;
     width: 100%;
     height: 700px;
     border-radius: 8%;
 }
 
-#whale_img{
+.whale_img{
     width: 50%;
     padding: 10px;
     float: left;
     margin-right: 20px;
 }
 
-#whale_img_right{
+.whale_img_right{
     width: 50%;
     padding: 10px;
     float: right;
     margin-left: 20px;
 }
 
-#warning_container{
+.warning_container{
     background-color: #e34444;
     color:#fff;
     margin-bottom: 30px;
@@ -228,6 +232,14 @@ footer p{
     font-weight: 700;
   }
 
+  button:hover{
+    background-color:#e34444;
+  }
+
+  button:active{
+    box-shadow: rgba(0,0,0,0.6) 1px 1px 1px;
+  }
+
   input, textarea, select{
     width: 100%;
     padding: 5px;
@@ -236,6 +248,6 @@ footer p{
     box-sizing: border-box;
   }
 
-  #contact input{
+  #contact input, #contact textarea, #contact select{
     margin-top:5px;
   }
