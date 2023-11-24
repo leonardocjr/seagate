@@ -302,10 +302,9 @@ input#idade {
     border-color:#3388f5;
 }
 
-input:focus {
+input:hover {
     border: 1px solid;
     border-color:#3388f5;
-    color: #3388f5;
 }
 
 .list_button {
@@ -342,23 +341,18 @@ ul#listaBaleias {
     margin-bottom:50px;
 }
 
-.list_container li {
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
 ul#listaBaleias li {
     font-family: 'Tilt Neon', sans-serif;
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 100px;
+    padding: 12px 8px 12px 40px;
     background: #fff;
     font-size: 18px;
+    color: #3388f5;
 }
 
 ul#listaBaleias li:nth-child(odd) {
     background: #F1F1F1;
-    color: #3388f5;
 }
 
 ul#listaBaleias li:hover {
@@ -371,6 +365,7 @@ ul#listaBaleias li:hover {
     right: 0;
     top: 0;
     padding: 12px 16px 12px 16px;
+    margin-right: 40px;
 }
 
 .close:hover {
