@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sea Gate - O portão dos mares</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
-    
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="icons/css/font-awesome.min.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html"><img src="images/logo.png" draggable="false" alt="Logo SeaGate"></a>
-            <ul>
-                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                <li><a href="index.html#gallery">Galeria</a></li>
-                <li><a href="contato.html">Sobre nós</a></li>
-                <li><a href="contato.html#forms">Contato</a></li>
-                <li><a href="lista.html">Lista</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a href="index.html"
+          ><img src="images/logo.png" draggable="false" alt="Logo SeaGate"
+        /></a>
+        <ul>
+          <li>
+            <a href="index.html"
+              ><i class="fa fa-home" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li><a href="index.html#gallery">Galeria</a></li>
+          <li><a href="contato.html">Sobre nós</a></li>
+          <li><a href="contato.html#forms">Contato</a></li>
+          <li><a href="lista.html">Lista</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="list_container">
-            <h1>Lista de baleias</h1>
-            <p>Aqui listamos todas as baleias pelo seu nome e a sua idade. Todos podem contribuir com novas baleias administradas, apenas adicionando na seção abaixo, agradecemos todas suas contribuições!</p>
-            <div>
-                <input class="list_input" type="text" id="nome" placeholder="Informe o nome da baleia" required>
-                <input class="list_input" type="number" id="idade" placeholder="Informe a idade da baleia" required>
-                <span onclick="addElemento()" class="list_button">Adicionar</span>
-                <span onclick="limparCampos()" class="list_button">Limpar Campos</span>
-                <span onclick="limparLista()" class="list_button">Limpar Lista</span>
-                <span onclick="search()" class="list_button" alt="Pesquisar"><i id="search_button" class="fa fa-search" aria-hidden="true"></i></span>
-            </div>
+      <div class="list_container">
+        <h1>Lista de baleias</h1>
+        <p>
+          Aqui listamos todas as baleias pelo seu nome e a sua idade. Todos
+          podem contribuir com novas baleias administradas, apenas adicionando
+          na seção abaixo, agradecemos todas suas contribuições!
+        </p>
+        <div>
+          <input
+            class="baleia"
+            type="text"
+            id="nome"
+            placeholder="Informe o nome da baleia"
+            required
+          />
+          <input
+            class="baleia"
+            type="number"
+            id="idade"
+            placeholder="Informe a idade da baleia"
+            required
+          />
+          <span onclick="addElemento()" class="list_button">Adicionar</span>
+          <span onclick="limparCampos()" class="list_button">Limpar Campos</span>
+          <span onclick="limparLista()" class="list_button">Limpar Lista</span>
+          <span onclick="search()" class="list_button" alt="Pesquisar"
+            ><i id="search_button" class="fa fa-search" aria-hidden="true"></i
+          ></span>
         </div>
-        <ul id="listaBaleias">
-        </ul>
+      </div>
+      <ul id="listaBaleias"></ul>
     </main>
     <footer>
-        <p>© Direitos reservados a Sea Gate 2023.</p>
+      <p>© Direitos reservados a Sea Gate 2023.</p>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
