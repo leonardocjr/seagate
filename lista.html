@@ -25,16 +25,16 @@
         </nav>
     </header>
     <main>
-        <div class="information_container">
+        <div class="list_container">
             <h1>Lista de baleias</h1>
             <p>Aqui listamos todas as baleias pelo seu nome e a sua idade. Todos podem contribuir com novas baleias administradas, apenas adicionando na seção abaixo, agradecemos todas suas contribuições!</p>
-            <div id="formlist">
-                <input type="text" id="nome" placeholder="Informe o nome da baleia" required>
-                <input type="number" id="idade" placeholder="Informe a idade da baleia" required>
-                <span onclick="addElemento()" class="botao">Adicionar</span>
-                <span onclick="limparCampos()" class="botao">Limpar Campos</span>
-                <span onclick="limparLista()" class="botao">Limpar Lista</span>
-                <span onclick="search()" class="botao" alt="Pesquisar"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <div>
+                <input class="list_input" type="text" id="nome" placeholder="Informe o nome da baleia" required>
+                <input class="list_input" type="number" id="idade" placeholder="Informe a idade da baleia" required>
+                <span onclick="addElemento()" class="list_button">Adicionar</span>
+                <span onclick="limparCampos()" class="list_button">Limpar Campos</span>
+                <span onclick="limparLista()" class="list_button">Limpar Lista</span>
+                <span onclick="search()" class="list_button" alt="Pesquisar"><i id="search_button" class="fa fa-search" aria-hidden="true"></i></span>
             </div>
         </div>
         <ul id="listaBaleias">

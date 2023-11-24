@@ -244,7 +244,7 @@ button:hover {
 }
 
 button:active {
-    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 1px;
+    box-shadow: #3388f5 1px 1px 1px;
 }
 
 input,
@@ -252,7 +252,7 @@ textarea,
 select {
     width: 100%;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #3388f5;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -262,6 +262,24 @@ select {
 #contact select {
     margin-top: 5px;
 }
+
+input {
+    height: 40px;
+    font-size: 16px;
+    font-family: 'K2D', sans-serif;
+}
+
+textarea {
+    font-size: 16px;
+    font-family: 'K2D', sans-serif;
+}
+
+select {
+    height: 40px;
+    font-size: 16px;
+    font-family: 'K2D', sans-serif;
+}
+
 
 input#nome {
     font-family: 'K2D', sans-serif;
@@ -277,28 +295,47 @@ input#idade {
     font-size: 16px;
 }
 
-#formlist {
-    padding-left: 200px;
-    padding-right: 200px;
+.list_input {
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 1px solid;
+    border-color:#3388f5;
 }
 
-.botao {
+input:focus {
+    border: 1px solid;
+    border-color:#3388f5;
+    color: #3388f5;
+}
+
+
+
+.list_button {
     font-family: 'K2D', sans-serif;
     margin-top:5px;
+    margin-right: 2px;
+    margin-left: 2px;
     padding: 10px;
     border-radius: 5px;
     width: 12.5%;
     background: #fff;
     color: #3388f5;
+    border: 1px solid;
+    border-color:#3388f5;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.botao:hover {
+.list_button:hover {
     background-color: #3388f5;
     color: #fff;
+}
+
+#search_button {
+    padding: 10px;
+    margin-top: 20px;
 }
 
 ul#listaBaleias {
@@ -307,21 +344,28 @@ ul#listaBaleias {
     margin-bottom:50px;
 }
 
+.list_container li {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 ul#listaBaleias li {
     font-family: 'Tilt Neon', sans-serif;
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 12px 8px 12px 100px;
     background: #fff;
     font-size: 18px;
 }
 
 ul#listaBaleias li:nth-child(odd) {
     background: #F1F1F1;
+    color: #3388f5;
 }
 
 ul#listaBaleias li:hover {
-    background: #ddd;
+    background: #3388f5;
+    color: #fff;
 }
 
 .close {
@@ -334,4 +378,13 @@ ul#listaBaleias li:hover {
 .close:hover {
     background-color: #e34444;
     color: white;
+}
+
+.list_container {
+    height: auto;
+    padding-bottom: 40px;
+    background-color: #fff;
+    color: #3388f5;
+    margin-left: 200px;
+    margin-right: 200px;
 }
